@@ -1,7 +1,7 @@
 import React from "react";
 
-import Bio from "../components/bio";
-import Layout from "../components/layout";
+import Bio from "../components/Bio";
+import Layout from "../components/Layout";
 
 const SiteIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title;
